@@ -1,0 +1,2 @@
+这里是通过data构建index.html和/README.md中静态数据的构建器
+未来这里可能也会换成nodejs项目。
