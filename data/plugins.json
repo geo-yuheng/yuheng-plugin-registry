@@ -1,0 +1,19 @@
+{
+    "yuheng_plugins": [
+        {
+            "name": "overpass",
+            "description": "Conduct overpass query, can be replaced by other python-overpass library",
+            "related_link": [
+                "https://github.com/mvexel/overpass-api-python-wrapper",
+                "https://github.com/mocnik-science/osm-python-tools",
+                "https://github.com/DinoTools/python-overpy"
+            ],
+            "tags": [
+                "official"
+            ]
+        },
+        {
+            "name": "yuheng-highwaystructure"
+        }
+    ]
+}

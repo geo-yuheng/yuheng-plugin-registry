@@ -6,15 +6,6 @@
 
 > 注意：后续插件列表可能按字母顺序排序
 
-### `overpass`
-
-Conduct overpass query, can be replaced by other python-overpass library:
-
-+ https://github.com/mvexel/overpass-api-python-wrapper
-+ https://github.com/mocnik-science/osm-python-tools
-+ https://github.com/DinoTools/python-overpy
-
-Detailed usage still in progress.
 
 ### `driver_geojson`
 
