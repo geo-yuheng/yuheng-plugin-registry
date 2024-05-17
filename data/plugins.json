@@ -18,7 +18,8 @@
                 }
             ],
             "tags": [
-                "official"
+                "official",
+                "built-in"
             ]
         },
         {
@@ -26,20 +27,73 @@
             "description": "基于 `geojson` 库，并未完全自行实现读取",
             "link": [
                 {
-                    "type": "repo",
+                    "type": "dependency::repo",
                     "url": "https://github.com/jazzband/geojson"
                 },
                 {
-                    "type": "package",
+                    "type": "dependency::package",
                     "url": "https://pypi.org/project/geojson/"
                 },
                 {
-                    "type": "docs",
+                    "type": "dependency::docs",
                     "url": "https://python-geojson.readthedocs.io/en/latest/#"
                 }
             ],
             "tags": [
-                "official"
+                "official",
+                "built-in"
+            ]
+        },
+        {
+            "name": "driver_topojson",
+            "description": "基于 `topojson` 库，并未完全自行实现读取",
+            "link": [
+                {
+                    "type": "dependency::repo",
+                    "url": "https://github.com/mattijn/topojson"
+                },
+                {
+                    "type": "dependency::package",
+                    "url": "https://pypi.org/project/topojson/"
+                },
+                {
+                    "type": "dependency::docs",
+                    "url": "https://mattijn.github.io/topojson/"
+                }
+            ],
+            "tags": [
+                "official",
+                "built-in"
+            ]
+        },
+        {
+            "name": "driver_shp",
+            "description": "基于 `pyshp` 库，并未完全自行实现读取",
+            "link": [
+                {
+                    "type": "dependency::repo",
+                    "url": "https://github.com/GeospatialPython/pyshp"
+                },
+                {
+                    "type": "dependency::package",
+                    "url": "https://pypi.org/project/pyshp/"
+                },
+                {
+                    "type": "dependency::docs",
+                    "url": "https://mattijn.github.io/topojson/"
+                }
+            ],
+            "tags": [
+                "official",
+                "built-in"
+            ]
+        },
+        {
+            "name": "driver_poly",
+            "description": "自行实现，提供多种输出方式。\n可以直接粗转换为Overpass或者其他常见的序列，也可转换为Yuheng的Carto对象或者从Carto对象生成多种序列",
+            "tags": [
+                "official",
+                "built-in"
             ]
         },
         {
