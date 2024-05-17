@@ -6,15 +6,6 @@
 
 > 注意：后续插件列表可能按字母顺序排序
 
-
-### `driver_geojson`
-
-基于 `geojson` 库，并未完全自行实现读取
-
-* 仓库地址：https://github.com/jazzband/geojson
-* 包地址：https://pypi.org/project/geojson/
-* 文档地址：https://python-geojson.readthedocs.io/en/latest/#
-
 ### `driver_topojson`
 
 基于 `topojson` 库，并未完全自行实现读取

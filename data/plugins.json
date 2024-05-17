@@ -3,10 +3,40 @@
         {
             "name": "overpass",
             "description": "Conduct overpass query, can be replaced by other python-overpass library",
-            "related_link": [
-                "https://github.com/mvexel/overpass-api-python-wrapper",
-                "https://github.com/mocnik-science/osm-python-tools",
-                "https://github.com/DinoTools/python-overpy"
+            "link": [
+                {
+                    "type": "related",
+                    "url": "https://github.com/mvexel/overpass-api-python-wrapper"
+                },
+                {
+                    "type": "related",
+                    "url": "https://github.com/mocnik-science/osm-python-tools"
+                },
+                {
+                    "type": "related",
+                    "url": "https://github.com/DinoTools/python-overpy"
+                }
+            ],
+            "tags": [
+                "official"
+            ]
+        },
+        {
+            "name": "driver_geojson",
+            "description": "基于 `geojson` 库，并未完全自行实现读取",
+            "link": [
+                {
+                    "type": "repo",
+                    "url": "https://github.com/jazzband/geojson"
+                },
+                {
+                    "type": "package",
+                    "url": "https://pypi.org/project/geojson/"
+                },
+                {
+                    "type": "docs",
+                    "url": "https://python-geojson.readthedocs.io/en/latest/#"
+                }
             ],
             "tags": [
                 "official"
