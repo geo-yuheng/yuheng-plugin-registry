@@ -5,20 +5,19 @@
             "description": "Conduct overpass query, can be replaced by other python-overpass library",
             "link": [
                 {
-                    "type": "related",
+                    "type": "related::repo",
                     "url": "https://github.com/mvexel/overpass-api-python-wrapper"
                 },
                 {
-                    "type": "related",
+                    "type": "related::repo",
                     "url": "https://github.com/mocnik-science/osm-python-tools"
                 },
                 {
-                    "type": "related",
+                    "type": "related::repo",
                     "url": "https://github.com/DinoTools/python-overpy"
                 }
             ],
             "tags": [
-                "official",
                 "built-in"
             ]
         },
@@ -40,7 +39,6 @@
                 }
             ],
             "tags": [
-                "official",
                 "built-in"
             ]
         },
@@ -62,7 +60,6 @@
                 }
             ],
             "tags": [
-                "official",
                 "built-in"
             ]
         },
@@ -84,7 +81,6 @@
                 }
             ],
             "tags": [
-                "official",
                 "built-in"
             ]
         },
@@ -92,12 +88,47 @@
             "name": "driver_poly",
             "description": "自行实现，提供多种输出方式。\n可以直接粗转换为Overpass或者其他常见的序列，也可转换为Yuheng的Carto对象或者从Carto对象生成多种序列",
             "tags": [
-                "official",
                 "built-in"
             ]
         },
         {
-            "name": "yuheng-highwaystructure"
+            "name": "yuheng-admininspect",
+            "tags": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "yuheng-highwaystructure",
+            "tags": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "yuheng-multimap",
+            "tags": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "yuheng-indoor3d",
+            "description": "渲染出三维模型或者室内三维可视化的相关支持，暂无细节设定",
+            "tags": [
+                "TODO"
+            ]
+        },
+        {
+            "name": "yuheng-geoslice",
+            "description": "类似osmium对数据按照bbox空间切片，只不过这里可以按照polygon，类似geopandas",
+            "tags": [
+                "TODO"
+            ]
+        },
+        {
+            "name": "yuheng-nodeshrink",
+            "description": "从1开始重新为所有node和way、relation编号，压缩到最大编号与len(node_dict)一样",
+            "tags": [
+                "TODO"
+            ]
         }
     ]
 }
